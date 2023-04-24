@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profil.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <title>фильмы</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav id='cssmenu'>
+            <div class="logo"><a href="index.html">Фильмы</a></div>
+            <div id="head-mobile"></div>
+            <div class="button"></div>
+            <ul>
+                <li class='active'><a href='#'>главная</a></li>
+                <li><a href='#'>профиль</a></li>
+                <li><a>фильтр</a>
+                    <ul>
+                        <li><a>топы</a>
+                            <ul>
+                                <li><a href="#" id="a__top__popular">топ популярных фильмов </a></li>
+                                <li><a href="#" id="a__top__await">топ 7 ожидаеммых фильмов</a></li>
+                                <li><a href="#" id="a__top__best">топ лучших фиильмов</a></li>
+                            </ul>
+                        </li>
+                        <li><a>по жанрам</a>
+                            <ul>
+                                <li><a href='#'>аниме</a></li>
+                                <li><a href='#'>фильмы и сериалы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href='#'>посты пользователей</a></li>
+                <li>
+                    <form>
+                        <input type="text" class="header__search " placeholder="Поиск фильмов" />
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Profil">
+        <div class="container">
+            <div class="Profil__header">
+                <div class="Profil__header__avatar">
+                    <form method="post" action="" enctype="multipart/data">
+                        <label class="label_ava" id="label_ava" for=pct></label>
+                        <input class="input_ava" type=file id=pct>
+                    </form>
+                    <h1 class="nik">Sweater</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Profil">
+        <div class="container">
+            <div class="Profil__post">
+                <div class="Profil__header__avatar">
+                    <div class="data__pol">
+                        <ul class="data__pol__ul">
+                            <li>asd</li>
+                            <li>asd</li>
+                            <li>asd</li>
+                            <li>asd</li>
+                            <li>asd</li>
+                        </ul>
+                    </div>
+                    <div class="post__polz">
+                        <input type="search" id="post__serch">
+                        <form action="">
+                            <input class="input__post__img" type=file id=pct>
+                            <input type="button" value="опубликовать">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/profil.js"></script>
+
+</body>
+
+</html>

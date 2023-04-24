@@ -1,0 +1,25 @@
+.Profil__header{
+    max-width: 1200px;
+    height: 200px;
+    background-image:url("../img/fon.jpg");
+    background-size:cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Profil__header__avatar{
+
+}
+.label_ava {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    background: silver;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input_ava {
+    display: none;
+}
