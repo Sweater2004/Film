@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('../font/CoFoSans-Bold.eot');
+  src: local('CoFo Sans Bold'), local('CoFoSans-Bold'),
+      url('../font/CoFoSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../font/CoFoSans-Bold.woff2') format('woff2'),
+      url('../font/CoFoSans-Bold.woff') format('woff'),
+      url('../font/CoFoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('../font/CoFoSans-Black.eot');
+  src: local('CoFo Sans Black'), local('CoFoSans-Black'),
+      url('../font/CoFoSans-Black.eot?#iefix') format('embedded-opentype'),
+      url('../font/CoFoSans-Black.woff2') format('woff2'),
+      url('../font/CoFoSans-Black.woff') format('woff'),
+      url('../font/CoFoSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('../font/CoFoSans-Regular.eot');
+  src: local('CoFo Sans'), local('CoFoSans-Regular'),
+      url('../font/CoFoSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../font/CoFoSans-Regular.woff2') format('woff2'),
+      url('../font/CoFoSans-Regular.woff') format('woff'),
+      url('../font/CoFoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('../font/CoFoSans-Medium.eot');
+  src: local('CoFo Sans Medium'), local('CoFoSans-Medium'),
+      url('../font/CoFoSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../font/CoFoSans-Medium.woff2') format('woff2'),
+      url('../font/CoFoSans-Medium.woff') format('woff'),
+      url('../font/CoFoSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoFo Robert';
+  src: url('../font/CoFoRobert-RegularItalic.eot');
+  src: local('CoFo Robert Italic'), local('CoFoRobert-RegularItalic'),
+      url('../font/CoFoRobert-RegularItalic.eot?#iefix') format('embedded-opentype'),
+      url('../font/CoFoRobert-RegularItalic.woff2') format('woff2'),
+      url('../font/CoFoRobert-RegularItalic.woff') format('woff'),
+      url('../font/CoFoRobert-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+.absolute{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width:100%;
+    height:100%;  
+    z-index:999;   
+    padding: 0;
+    margin: 0;
+}
+.z-index1{
+    z-index: 100000;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'CoFo Sans';
+    font-weight: 500;
+    font-style: normal;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'CoFo Sans';
+    font-weight: 500;
+    font-style: normal;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* common styles */
+body {
+    background: #f1f1f1;
+    color: #000;
+    
+}
+.page {
+    background: #fff;
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    overflow: hidden;
+}
+.font-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 40px;
+    line-height: 1.3;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+h1 {
+    position: relative;
+    background: #444;
+    font-size: 32px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 -20px 12px -20px;
+}
+.letters {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.s10:before, .s11:before, .s12:before, .s14:before,
+.s18:before, .s24:before, .s30:before, .s36:before,
+.s48:before, .s60:before, .s72:before {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    color: #999;
+    padding-right: 6px;
+}
+pre {
+    display: block;
+    position: relative;
+    padding: 9px;
+    margin: 0 0 10px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace !important;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #333;
+    font-weight: normal !important;
+    font-style: normal !important;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    border-radius: 4px;
+}
+pre:after {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: 'Usage';
+    line-height: 1;
+    padding: 5px 8px;
+    font-size: 12px;
+    color: #767676;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-top: none;
+    border-radius: 0 4px 0 4px;
+    z-index: 10;
+}
+/* responsive */
+@media (max-width: 959px) {
+    .page {
+        width: auto;
+        margin: 0;
+    }
+}
+.header__burger{
+    display: none;
+}
+@media screen and (max-width: 985px) {
+    .option {
+      display: none;
+    }
+    /* CSS */
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: absolute;
+        right: 0;
+      }
+
+    
+      .header__burger:before,
+      .header__burger:after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 1px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+      }
+    
+      .header__burger:before {
+        top: 0;
+      }
+    
+      .header__burger:after {
+        bottom: 0;
+      }
+    
+      .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+        background-color: #000000;
+      }
+    
+      .header__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        background-color: #000000;
+      }
+    
+}
+@media screen and (max-width: 563px) {
+    .myCard {
+        flex-direction: column;
+    }
+    .v-slide-group--is-overflowing{
+        justify-content: left;
+
+    }
+}
