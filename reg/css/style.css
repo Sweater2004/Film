@@ -1,0 +1,54 @@
+.img_fon{
+    max-width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.v-application .title {
+    font-size:2.2rem!important;
+}
+.v-responsive__sizer{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+    .div-img-fon{
+        width: 100%;
+    }
+    .img_fon{
+        max-width: 100vw;
+        max-height: 50vh;
+    }
+    .container_card{
+        width: 80%;
+    }
+    .v-application .align-center{
+        position:absolute;
+        top: -30%;
+        z-index: 10000;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        }
+}
+@media screen and (max-width: 460px) {
+    .container_card{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (min-width: 990px) {
+    .btn_ma{
+        margin: 0px 20px;
+    }
+
+}
+@media screen and (max-width: 350px) {
+
+    .v-btn:not(.v-btn--round).v-size--default{
+        margin: 3px;
+        padding: 0px;
+        font-size: 10px;
+    }
+}
